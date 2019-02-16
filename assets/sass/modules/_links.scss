@@ -1,0 +1,10 @@
+.nav-link {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+  display: block;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}

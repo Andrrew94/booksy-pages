@@ -1,0 +1,80 @@
+.custom-check {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  padding-left: 25px;
+  color: #666666;
+
+  input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+
+    @media (max-width: 576px) {
+      width: unset;
+      left: 0;
+    }
+  }
+
+  input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+
+  input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      display: none;
+    }
+    &::after {
+      left: 4px;
+      top: 1px;
+      width: 3px;
+      height: 6px;
+      border: solid white;
+      border-width: 0 2px 2px 0;
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+  }
+}
+
+.modal,
+.modal-auth-email {
+  label {
+    display: block;
+    color: #605F5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 6px;
+  }
+
+  input {
+    display: block;
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+    box-shadow: none;
+    color: #444444;
+    padding: 12px 20px;
+    font-size: 16px;
+  }
+}

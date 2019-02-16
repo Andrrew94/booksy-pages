@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>booksy</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+<header class="homepage__header">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <a href="#">
+                    <div class="logo">
+                        <img src="../assets/images/logo.png" alt="logo">
+                    </div>
+                </a>
+            </div>
+            <div class="col col--flex-end">
+                <div class="user">
+                    <div class="avatar">
+                        <img src="../assets/images/avatar.jpg" alt="avatar">
+                    </div>
+                    <div class="user__name">
+                        <span>Valerie</span>
+                    </div>
+                </div>
+                <div class="notifications">
+                    <div class="round-icon">
+                        <i class="far fa-bell"></i>
+                    </div>
+                </div>
+                <div class="business">
+                    <a href="#">For business</a>
+                </div>
+                <div class="region">
+                    <div class="region__selector">
+                        <div class="flag-icon">
+                            <img src="../assets/images/flags/us.svg" alt="flag">
+                        </div>
+                        <span>US</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <nav>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="./hair-salon.html">Hair Salon</a>
+                        </li>
+                        <li>
+                            <a href="#">Barber Shop</a>
+                        </li>
+                        <li>
+                            <a href="#">Nail Salon</a>
+                        </li>
+                        <li>
+                            <a href="#">Eyebrows &amp; Lashes</a>
+                        </li>
+                        <li>
+                            <a href="#">Beauty Salon</a>
+                        </li>
+                        <li>
+                            <a href="#">Massage</a>
+                        </li>
+                        <li>
+                            <a href="#">Makeup Artist</a>
+                        </li>
+                        <li>
+                            <a href="#">Day Spa</a>
+                        </li>
+                        <li>
+                            <a href="#">Tattoo Shops</a>
+                        </li>
+                    </ul>
+
+                    <div class="dropdown clickable-dropdown">
+                        <div title="More categories..." class="dropdown__activator clickable-dropdown__activator">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                        <ul class="dropdown__menu clickable-dropdown__menu">
+                            <li>
+                                <a href="#">Wedding Makeup Artist</a>
+                            </li>
+                            <li>
+                                <a href="#">Medical Esthetician</a>
+                            </li>
+                            <li>
+                                <a href="#">Hair Removal</a>
+                            </li>
+                            <li>
+                                <a href="#">Home Services</a>
+                            </li>
+                            <li>
+                                <a href="#">Piercing</a>
+                            </li>
+                            <li>
+                                <a href="#">Physical Therapy</a>
+                            </li>
+                            <li>
+                                <a href="#">Holistic Medicine</a>
+                            </li>
+                            <li>
+                                <a href="#">Pet Services</a>
+                            </li>
+                            <li>
+                                <a href="#">Dentist</a>
+                            </li>
+                            <li>
+                                <a href="#">Dietician</a>
+                            </li>
+                            <li>
+                                <a href="#">Podiatry</a>
+                            </li>
+                            <li>
+                                <a href="#">Other</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero__title">Book Your Best</h1>
+            <h3 class="hero__subtitle">Discover health and beauty professionals near you.</h3>
+            <form class="hero__form" action="#" method="post">
+                <div class="row row--flex-start">
+                    <div class="col col--5">
+                        <input class="u-full-width" type="text" name="Services" placeholder="Services...">
+                    </div>
+                    <div class="col col--5">
+                        <input class="u-full-width" type="text" name="YourCity" placeholder="Your city...">
+                    </div>
+                    <div class="col col--2">
+                        <button class="primary-button u-full-width" type="submit" name="SubmitBtn">Search</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="popular u-has-cards">
+        <div class="container">
+            <h2 class="section__title">
+                Popular with Booksy Users
+            </h2>
+            <div class="row row--negative-margins">
+                <div class="col col--3">
+                    <a href="#">
+                        <div class="card">
+                            <div class="card__image">
+                                <img src="../assets/images/barber-shop.jpg" alt="Barber Shop">
+                            </div>
+                            <div class="card__rating">
+                  <span class="card__rating__stars">
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                  </span>
+                                <span class="card__rating__rank">
+                    4.98
+                  </span>
+                                <span class="card__rating__reviews --small-text">
+                    (<span class="card__rating__reviews__number">347</span> reviews)
+                  </span>
+                            </div>
+                            <div class="card__title">
+                                Ojo's Anointed Cuts
+                            </div>
+                            <div class="card__location card__location--block">
+                                Chicago, IL, <span>Barber Shop</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col col--3">
+                    <a href="#">
+                        <div class="card">
+                            <div class="card__image">
+                                <img src="../assets/images/barber-shop.jpg" alt="Barber Shop">
+                            </div>
+                            <div class="card__rating">
+                  <span class="card__rating__stars">
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                  </span>
+                                <span class="card__rating__rank">
+                    5.00
+                  </span>
+                                <span class="card__rating__reviews --small-text">
+                    (<span class="card__rating__reviews__number">96</span> reviews)
+                  </span>
+                            </div>
+                            <div class="card__title card__title--small">
+                                ModMan Barbershop of Tampa
+                            </div>
+                            <div class="card__location card__location--block">
+                                Tampa, FL, <span>Barber Shop</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col col--3">
+                    <a href="#">
+                        <div class="card">
+                            <div class="card__image">
+                                <img src="../assets/images/barber-shop.jpg" alt="Barber Shop">
+                            </div>
+                            <div class="card__rating">
+                  <span class="card__rating__stars">
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                  </span>
+                                <span class="card__rating__rank">
+                    4.95
+                  </span>
+                                <span class="card__rating__reviews --small-text">
+                    (<span class="card__rating__reviews__number">183</span> reviews)
+                  </span>
+                            </div>
+                            <div class="card__title card__title--small">
+                                Illustrious Cuts
+                            </div>
+                            <div class="card__location card__location--block">
+                                Chicago, IL, <span>Barber Shop</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col col--3">
+                    <a href="#">
+                        <div class="card">
+                            <div class="card__image">
+                                <img src="../assets/images/barber-shop.jpg" alt="Barber Shop">
+                            </div>
+                            <div class="card__rating">
+                  <span class="card__rating__stars">
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                  </span>
+                                <span class="card__rating__rank">
+                    4.98
+                  </span>
+                                <span class="card__rating__reviews --small-text">
+                    (<span class="card__rating__reviews__number">91</span> reviews)
+                  </span>
+                            </div>
+                            <div class="card__title card__title--small">
+                                Mario's Cutz
+                            </div>
+                            <div class="card__location card__location--block">
+                                Orlando, FL, <span>Barber Shop</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="best u-has-cards">
+        <div class="container">
+            <h2 class="section__title">Best in Your Area</h2>
+            <div class="row row--negative-margins">
+                <div class="col col--6">
+                    <a href="#">
+                        <div class="card">
+                            <div class="card__image">
+                                <img src="../assets/images/nail-salon.jpg" alt="Nail Salon">
+                            </div>
+                            <div class="card__rating">
+                  <span class="card__rating__stars">
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                  </span>
+                                <span class="card__rating__rank">
+                    5.00
+                  </span>
+                                <span class="card__rating__reviews --small-text">
+                    (<span class="card__rating__reviews__number">53</span> reviews)
+                  </span>
+                            </div>
+                            <div class="card__title card__title--large">
+                                Lilo's
+                            </div>
+                            <div class="card__location">
+                                Lake Mary, FL, <span>Nail Salon</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col col--6">
+                    <a href="#">
+                        <div class="card">
+                            <div class="card__image">
+                                <img src="../assets/images/barber-shop.jpg" alt="Barber Shop">
+                            </div>
+                            <div class="card__rating">
+                  <span class="card__rating__stars">
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                  </span>
+                                <span class="card__rating__rank">
+                    4.98
+                  </span>
+                                <span class="card__rating__reviews --small-text">
+                    (<span class="card__rating__reviews__number">50</span> reviews)
+                  </span>
+                            </div>
+                            <div class="card__title card__title--large">
+                                Alex @ Traditions Barber Parlor III
+                            </div>
+                            <div class="card__location">
+                                Chicago, IL, <span>Barber Shop</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row row--negative-margins">
+                <div class="col col--4">
+                    <a href="#">
+                        <div class="card">
+                            <div class="card__image">
+                                <img src="../assets/images/hair-salon.jpg" alt="Hair Salon">
+                            </div>
+                            <div class="card__rating">
+                  <span class="card__rating__stars">
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                  </span>
+                                <span class="card__rating__rank">
+                    4.94
+                  </span>
+                                <span class="card__rating__reviews --small-text">
+                    (<span class="card__rating__reviews__number">16</span> reviews)
+                  </span>
+                            </div>
+                            <div class="card__title card__title--medium">
+                                Love My Hair LLC
+                            </div>
+                            <div class="card__location">
+                                Orlando, FL, <span>Hair Salon</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col col--4">
+                    <a href="#">
+                        <div class="card">
+                            <div class="card__image">
+                                <img src="../assets/images/eyebrows&lashes.png" alt="Eyebrows and Lashes">
+                            </div>
+                            <div class="card__rating">
+                  <span class="card__rating__stars">
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                  </span>
+                                <span class="card__rating__rank">
+                    4.84
+                  </span>
+                                <span class="card__rating__reviews --small-text">
+                    (<span class="card__rating__reviews__number">25</span> reviews)
+                  </span>
+                            </div>
+                            <div class="card__title card__title--medium">
+                                Brow Shaping & Lash Extension
+                            </div>
+                            <div class="card__location">
+                                Houston, TX, <span>Eyebrows & Lashes</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col col--4">
+                    <a href="#">
+                        <div class="card">
+                            <div class="card__image">
+                                <img src="../assets/images/hair-salon.jpg" alt="Hair Salon">
+                            </div>
+                            <div class="card__rating">
+                  <span class="card__rating__stars">
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                  </span>
+                                <span class="card__rating__rank">
+                    4.99
+                  </span>
+                                <span class="card__rating__reviews --small-text">
+                    (<span class="card__rating__reviews__number">69</span> reviews)
+                  </span>
+                            </div>
+                            <div class="card__title card__title--medium">
+                                Braids By Josette
+                            </div>
+                            <div class="card__location">
+                                Orlando, FL, <span>Hair Salon</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col col--4">
+                    <a href="#">
+                        <div class="card">
+                            <div class="card__image">
+                                <img src="../assets/images/barber-shop.jpg" alt="Barber Shop">
+                            </div>
+                            <div class="card__rating">
+                  <span class="card__rating__stars">
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                  </span>
+                                <span class="card__rating__rank">
+                    4.94
+                  </span>
+                                <span class="card__rating__reviews --small-text">
+                    (<span class="card__rating__reviews__number">155</span> reviews)
+                  </span>
+                            </div>
+                            <div class="card__title card__title--medium">
+                                Manny the Artist @ Shear Junkies Barbers
+                            </div>
+                            <div class="card__location">
+                                Orlando, FL, <span>Barber Shop</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col col--4">
+                    <a href="#">
+                        <div class="card">
+                            <div class="card__image">
+                                <img src="../assets/images/barber-shop.jpg" alt="Barber Shop">
+                            </div>
+                            <div class="card__rating">
+                  <span class="card__rating__stars">
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                  </span>
+                                <span class="card__rating__rank">
+                    4.90
+                  </span>
+                                <span class="card__rating__reviews --small-text">
+                    (<span class="card__rating__reviews__number">134</span> reviews)
+                  </span>
+                            </div>
+                            <div class="card__title card__title--medium">
+                                ChristyClips
+                            </div>
+                            <div class="card__location">
+                                San Antonio, TX, <span>Barber Shop</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col col--4">
+                    <a href="#">
+                        <div class="card">
+                            <div class="card__image">
+                                <img src="../assets/images/barber-shop.jpg" alt="Barber Shop">
+                            </div>
+                            <div class="card__rating">
+                  <span class="card__rating__stars">
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                  </span>
+                                <span class="card__rating__rank">
+                    4.98
+                  </span>
+                                <span class="card__rating__reviews --small-text">
+                    (<span>42</span> reviews)
+                  </span>
+                            </div>
+                            <div class="card__title card__title--medium">
+                                Pauly The Barber
+                            </div>
+                            <div class="card__location">
+                                San Antonio, TX, <span>Barber Shop</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="--bg-color1">
+        <div class="container bg-phone">
+            <div class="image-holder">
+                <img src="../assets/images/app-phone.png" alt="phone">
+            </div>
+            <h3>Download our app to book your next appointment anytime, anywhere.</h3>
+            <form action="userHomepage.html" method="post">
+                <div class="row row--flex-start">
+                    <div class="col">
+                        <input type="tel" name="phonenumber" value="" placeholder="Your phone number">
+                    </div>
+                    <div class="col">
+                        <button class="primary-button -full-width" type="submit" name="sendSMS">Send SMS</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="reviews u-has-cards">
+        <div class="container">
+            <h2 class="section__title">Reviews</h2>
+            <div class="row row--negative-margins">
+                <div class="col col--4">
+                    <a href="#">
+                        <div class="card card--bordered">
+                            <div class="card__rating">
+                              <span class="card__rating__stars">
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                              </span>
+                                <span class="card__rating__rank">5.0</span>
+                            </div>
+                            <div class="card__review">
+                                My first time going to the shop and barber. Real talk My boy Dre is professional
+                                and this is the best cut I've had since I've been in Las Vegas no lie.
+                                I'm a loyal customer now. If you want the best cut and and professionalism plus a
+                                cool shop to go to. Go to Iced Out hit my boy Dre and he got you square business!!!
+                            </div>
+                            <div class="card__reviewer">
+                                <span class="card__reviewer__name --small-text">Wink A.</span>
+                                <span class="card__reviewer__date --small-text">(05.01.2018)</span>
+                                <div class="card__reviewer__photo avatar avatar--large">
+                                    <img src="../assets/images/avatar.jpg" alt="image">
+                                </div>
+                            </div>
+                            <div class="card__footer">
+                                <div class="card__footer__info --small-text">
+                                    Reviews for:
+                                </div>
+                                <div class="card__footer__salon">
+                                    Hair Cutz Don't Lie
+                                </div>
+                                <div class="card__location">
+                                    Las Vegas, NV
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col col--4">
+                    <a href="#">
+                        <div class="card card--bordered">
+                            <div class="card__rating">
+                                  <span class="card__rating__stars">
+                                    <i class="fas fa-star checked"></i>
+                                    <i class="fas fa-star checked"></i>
+                                    <i class="fas fa-star checked"></i>
+                                    <i class="fas fa-star checked"></i>
+                                    <i class="fas fa-star checked"></i>
+                                  </span>
+                                <span class="card__rating__rank">5.0</span>
+                            </div>
+                            <div class="card__review">
+                                Excellent service! Highly recommended!
+                            </div>
+                            <div class="card__reviewer">
+                                <span class="card__reviewer__name --small-text">Jimmy P.</span>
+                                <span class="card__reviewer__date --small-text">(30.08.2018)</span>
+                                <div class="card__reviewer__photo avatar avatar--large">
+                                    <img src="../assets/images/avatar.jpg" alt="image">
+                                </div>
+                            </div>
+                            <div class="card__footer">
+                                <div class="card__footer__info --small-text">
+                                    Reviews for:
+                                </div>
+                                <div class="card__footer__salon">
+                                    Polo The Barber
+                                </div>
+                                <div class="card__location">
+                                    Kissimmee, FL
+                                </div>
+                            </div>
+                        </div>
+
+                    </a>
+                </div>
+                <div class="col col--4">
+                    <a href="#">
+                        <div class="card card--bordered">
+                            <div class="card__rating">
+                              <span class="card__rating__stars">
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                                <i class="fas fa-star checked"></i>
+                              </span>
+                                <span class="card__rating__rank">5.0</span>
+                            </div>
+                            <div class="card__review">
+                                Always does an amazing job !! Very professional and clean &#x1F4AF;&#x1F4AF;&#x1F4AF;
+                            </div>
+                            <div class="card__reviewer">
+                                <span class="card__reviewer__name --small-text">Mike S.</span>
+                                <span class="card__reviewer__date --small-text">(14.07.2017)</span>
+                                <div class="card__reviewer__photo avatar avatar--large">
+                                    <img src="../assets/images/avatar.jpg" alt="image">
+                                </div>
+                            </div>
+                            <div class="card__footer">
+                                <div class="card__footer__info --small-text">
+                                    Reviews for:
+                                </div>
+                                <div class="card__footer__salon">
+                                    J Ramirez The Barber
+                                </div>
+                                <div class="card__location">
+                                    Kissimmee, FL
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- AND 2 MORE COLS -->
+            </div>
+        </div>
+    </section>
+
+    <section class="locations u-has-cards">
+        <div class="container">
+            <h2 class="section__title">We're popular! Find us in&hellip;</h2>
+            <div class="row row--negative-margins">
+                <div class="col col--3">
+                    <a href="#">
+                        <div class="card">
+                            <div class="card__image">
+                                <img src="../assets/images/orlando.jpg" alt="Orlando">
+                            </div>
+                            <div class="card__title card__title--small">
+                                Orlando
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col col--3">
+                    <a href="#">
+                        <div class="card">
+                            <div class="card__image">
+                                <img src="../assets/images/san-francisco.jpg" alt="San Francisco">
+                            </div>
+                            <div class="card__title card__title--small">
+                                San Francisco Bay Area
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col col--3">
+                    <a href="#">
+                        <div class="card">
+                            <div class="card__image">
+                                <img src="../assets/images/chicago.jpg" alt="Chicago">
+                            </div>
+                            <div class="card__title card__title--small">
+                                Chicago
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col col--3">
+                    <div class="card">
+                        <div class="card__image">
+                            <img src="../assets/images/tampa.jpg" alt="Tampa">
+                        </div>
+                        <div class="card__title card__title--small">
+                            Tampa
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-tools">
+        <div class="container">
+            <div class="row">
+                <div class="col col--6"></div>
+                <div class="col col--6 mr-100">
+                    <h3>Imagine your book at your fingertips whenever, whenever. Give the BooksyBIZ app a try.</h3>
+                    <button class="primary-button" type="button" name="button">Signup</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="benefits">
+        <div class="container">
+            <div class="row">
+                <div class="col col--4">
+                    <div class="benefit">
+                        <img src="../assets/images/benefits-calendar.png" alt="calendar">
+                        <h3>One million monthly reservations</h3>
+                    </div>
+                </div>
+                <div class="col col--4">
+                    <div class="benefit">
+                        <img src="../assets/images/benefits-reviews.png" alt="reviews">
+                        <h3>Verified reviews only</h3>
+                    </div>
+                </div>
+                <div class="col col--4">
+                    <div class="benefit">
+                        <img src="../assets/images/benefits-online.png" alt="online">
+                        <h3>Book online 24/7</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2 class="section__title">Most popular categories nearby</h2>
+            <ul class="arrow-list">
+                <li>
+                    <a href="#">
+                        Hair salons near me
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Barber shops near me
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Massage near me
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Nail salons near me
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Tattoo near me
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Spa places near me
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+</main>
+
+<footer class="--type1">
+    <div class="top">
+        <div class="container">
+            <div class="row row--flex-start">
+                <div class="col col--3">
+                    <h2>Regional settings</h2>
+                    <div class="selection-block">
+                        <div class="selection__title">
+                            Country
+                        </div>
+                        <div class="selection__selector">
+                            <div class="flag-icon">
+                                <img src="../assets/images/flags/us.svg" alt="flag">
+                            </div>
+                            <span>United States</span>
+                            <i class="fas fa-angle-right"></i>
+                        </div>
+                    </div>
+                    <div class="selection-block">
+                        <div class="selection__title">
+                            Language
+                        </div>
+                        <div class="selection__selector dropdown-hover">
+                            <span>English</span>
+                            <i class="fas fa-angle-down"></i>
+                            <ul class="dropdown-hover__menu">
+                                <li>
+                                    <a href="#">English</a>
+                                </li>
+                                <li>
+                                    <a href="#">Español</a>
+                                </li>
+                                <li>
+                                    <a href="#">Polski</a>
+                                </li>
+                                <li>
+                                    <a href="#">Português</a>
+                                </li>
+                                <li>
+                                    <a href="#">Русский</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col--5">
+                    <h2>Download our app to book appointments</h2>
+                    <p>Download our app to start booking appointments today.</p>
+                    <form action="userHomepage.html" method="post">
+                        <div class="row row--flex-start">
+                            <div class="col">
+                                <input type="tel" name="phonenumber" value="" placeholder="Your phone number">
+                            </div>
+                            <div class="col">
+                                <button class="primary-button -full-width" type="submit" name="sendSMS">Send SMS
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col col--4">
+                    <h2>Find us on:</h2>
+                    <div class="socials">
+                        <div class="socials__holder">
+                            <a href="#">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </div>
+                        <div class="socials__holder">
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="socials__holder">
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#">Terms of service</a>
+                    </li>
+                    <li>
+                        <a href="#">Careers</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <p>&copy; 2018 Booksy Inc. All rights reserved</p>
+        </div>
+    </div>
+</footer>
+
+<script type="text/javascript" src="../assets/scripts/main.js"></script>
+</body>
+
+</html>

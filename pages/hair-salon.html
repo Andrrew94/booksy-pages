@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>booksy</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+</head>
+
+<body>
+<header class="homepage__header">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <a href="#">
+                    <div class="logo">
+                        <img src="../assets/images/logo.png" alt="logo">
+                    </div>
+                </a>
+            </div>
+            <div class="col col--flex-end">
+                <div class="user">
+                    <div class="avatar">
+                        <img src="../assets/images/avatar.jpg" alt="avatar">
+                    </div>
+                    <div class="user__name">
+                        <span>Valerie</span>
+                    </div>
+                </div>
+                <div class="notifications">
+                    <div class="round-icon">
+                        <i class="far fa-bell"></i>
+                    </div>
+                </div>
+                <div class="business">
+                    <a href="#">For business</a>
+                </div>
+                <div class="region">
+                    <div class="region__selector">
+                        <div class="flag-icon">
+                            <img src="../assets/images/flags/us.svg" alt="flag">
+                        </div>
+                        <span>US</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <nav>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="./hair-salon.html" class="active">Hair Salon</a>
+                        </li>
+                        <li>
+                            <a href="#">Barber Shop</a>
+                        </li>
+                        <li>
+                            <a href="#">Nail Salon</a>
+                        </li>
+                        <li>
+                            <a href="#">Eyebrows &amp; Lashes</a>
+                        </li>
+                        <li>
+                            <a href="#">Beauty Salon</a>
+                        </li>
+                        <li>
+                            <a href="#">Massage</a>
+                        </li>
+                        <li>
+                            <a href="#">Makeup Artist</a>
+                        </li>
+                        <li>
+                            <a href="#">Day Spa</a>
+                        </li>
+                        <li>
+                            <a href="#">Tattoo Shops</a>
+                        </li>
+                    </ul>
+
+                    <div class="dropdown clickable-dropdown">
+                        <div title="More categories..." class="dropdown__activator clickable-dropdown__activator">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                        <ul class="dropdown__menu clickable-dropdown__menu">
+                            <li>
+                                <a href="#">Wedding Makeup Artist</a>
+                            </li>
+                            <li>
+                                <a href="#">Medical Esthetician</a>
+                            </li>
+                            <li>
+                                <a href="#">Hair Removal</a>
+                            </li>
+                            <li>
+                                <a href="#">Home Services</a>
+                            </li>
+                            <li>
+                                <a href="#">Piercing</a>
+                            </li>
+                            <li>
+                                <a href="#">Physical Therapy</a>
+                            </li>
+                            <li>
+                                <a href="#">Holistic Medicine</a>
+                            </li>
+                            <li>
+                                <a href="#">Pet Services</a>
+                            </li>
+                            <li>
+                                <a href="#">Dentist</a>
+                            </li>
+                            <li>
+                                <a href="#">Dietician</a>
+                            </li>
+                            <li>
+                                <a href="#">Podiatry</a>
+                            </li>
+                            <li>
+                                <a href="#">Other</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="container row row--flex-start">
+        <aside class="col--4 filters">
+            <div class="filters__box">
+                <div class="filters__box__title">
+                    <i class="far fa-clock"></i>
+                    Availability
+                </div>
+                <ul>
+                    <li><select name="date">
+                        <option selected>Date</option>
+                    </select></li>
+                    <li><select name="time">
+                        <option value="">Time</option>
+                    </select></li>
+                </ul>
+            </div>
+        </aside>
+        <section class="col--8 search-location">
+            <h1>Haircut - Florida</h1>
+            <ul class="search-location__filters">
+                <li>Sort by:</li>
+                <li>
+                    <a href="#" class="active">Recommended</a>
+                </li>
+                <li> /</li>
+                <li>
+                    <a href="#">Most popular</a>
+                </li>
+                <li> /</li>
+                <li>
+                    <a href="#">Customer ratings</a>
+                </li>
+            </ul>
+            <ul class="search-location__list">
+                <li class="search-location__list__item">
+                    <div class="row">
+                        <div class="col--5">
+                            <a href="#">
+                                <img src="http://dummyimage.com/280x200/" alt="Some beauty salon">
+                            </a>
+                        </div>
+                        <div class="col--7">
+                            <h2><a href="#">Marie Nicole LLC</a></h2>
+                            <span class="card__rating">
+                                <span class="card__rating__stars">
+                                    <i class="fas fa-star checked"></i>
+                                    <i class="fas fa-star checked"></i>
+                                    <i class="fas fa-star checked"></i>
+                                    <i class="fas fa-star checked"></i>
+                                    <i class="fas fa-star checked"></i>
+                                </span>
+                            <span class="card__rating__reviews --small-text">
+                                (<span class="card__rating__reviews__number">50</span> reviews)</span>
+                            </span>
+                            <div class="search-location__list__item__address">
+                                <a href="#">5205 S Orange Ave, Orlando, FL, 32809</a>
+                            </div>
+                            <div class="search-location__list__item__quote">"Melanie is wonderful!"</div>
+                            <div class="row">
+                                <div class="col--4">
+                                    <a href="#">
+                                        <img src="http://dummyimage.com/120x120/" alt="Some beauty salon">
+                                    </a>
+                                </div>
+                                <div class="col--4">
+                                    <a href="#">
+                                        <img src="http://dummyimage.com/120x120/" alt="Some beauty salon">
+                                    </a>
+                                </div>
+                                <div class="col--4">
+                                    <a href="#">
+                                        <img src="http://dummyimage.com/120x120/" alt="Some beauty salon">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <ul>
+                        <li class="row">
+                            <div class="col--5">Haircut</div>
+                            <div class="col--7 u-text-right">
+                                <span>40min.</span>
+                                <span>$30.00</span>
+                                <a href="#" class="primary-button primary-button--sm">Book now</a>
+                            </div>
+                        </li>
+                        <li class="row">
+                            <div class="col--5">Eyebrow shaping</div>
+                            <div class="col--7 u-text-right">
+                                <span>15min.</span>
+                                <span>$10.00</span>
+                                <a href="#" class="primary-button primary-button--sm">Book now</a>
+                            </div>
+                        </li>
+                        <li class="row">
+                            <div class="col--5">Crochet</div>
+                            <div class="col--7 u-text-right">
+                                <span>90min.</span>
+                                <span>$80.00+</span>
+                                <a href="#" class="primary-button primary-button--sm">Book now</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">Show all services &gt;</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </div>
+</main>
+
+<footer class="--type1">
+    <div class="top">
+        <div class="container">
+            <div class="row row--flex-start">
+                <div class="col col--3">
+                    <h2>Regional settings</h2>
+                    <div class="selection-block">
+                        <div class="selection__title">
+                            Country
+                        </div>
+                        <div class="selection__selector">
+                            <div class="flag-icon">
+                                <img src="../assets/images/flags/us.svg" alt="flag">
+                            </div>
+                            <span>United States</span>
+                            <i class="fas fa-angle-right"></i>
+                        </div>
+                    </div>
+                    <div class="selection-block">
+                        <div class="selection__title">
+                            Language
+                        </div>
+                        <div class="selection__selector dropdown-hover">
+                            <span>English</span>
+                            <i class="fas fa-angle-down"></i>
+                            <ul class="dropdown-hover__menu">
+                                <li>
+                                    <a href="#">English</a>
+                                </li>
+                                <li>
+                                    <a href="#">Español</a>
+                                </li>
+                                <li>
+                                    <a href="#">Polski</a>
+                                </li>
+                                <li>
+                                    <a href="#">Português</a>
+                                </li>
+                                <li>
+                                    <a href="#">Русский</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col--5">
+                    <h2>Download our app to book appointments</h2>
+                    <p>Download our app to start booking appointments today.</p>
+                    <form action="userHomepage.html" method="post">
+                        <div class="row row--flex-start">
+                            <div class="col">
+                                <input type="tel" name="phonenumber" value="" placeholder="Your phone number">
+                            </div>
+                            <div class="col">
+                                <button class="primary-button -full-width" type="submit" name="sendSMS">Send SMS
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col col--4">
+                    <h2>Find us on:</h2>
+                    <div class="socials">
+                        <div class="socials__holder">
+                            <a href="#">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </div>
+                        <div class="socials__holder">
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="socials__holder">
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#">Terms of service</a>
+                    </li>
+                    <li>
+                        <a href="#">Careers</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <p>&copy; 2018 Booksy Inc. All rights reserved</p>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" src="../assets/scripts/main.js"></script>
+</body>
+</html>

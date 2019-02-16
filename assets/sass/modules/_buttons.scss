@@ -1,0 +1,61 @@
+.primary-button {
+  padding: 10px 20px;
+  background-color: $primary-color;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+
+  &--caps {
+    padding: 15px 30px;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  &:hover {
+    background-color: $primary-color-hover;
+  }
+
+  &--sm {
+    font-size: 13px;
+    padding: 9px;
+  }
+}
+
+.fb-btn {
+  color: #ffffff;
+  background: $facebook-color;
+  border:1px solid $facebook-color;
+  font-weight: 400;
+
+  &:hover {
+    background: $facebook-color-hover;
+    border:1px solid $facebook-color-hover;
+  }
+
+  i {
+    float: left;
+    font-size: 14px;
+  }
+}
+
+.solid-btn {
+  color: #ffffff;
+  background: $primary-color;
+  border: 1px solid $primary-color;
+
+  &:hover {
+    background: $primary-color-hover;
+    border: 1px solid $primary-color-hover;
+  }
+}
+
+.bordered-btn {
+  color: $primary-color;
+  border: 1px solid $primary-color;
+  font-weight: 700;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
