@@ -15,4 +15,5 @@ The technologies used were : CSS preprocessor SASS along with BEM metodology and
 </br>
 </br>
 <h2>Homepage</h2>
+
 ![Homepage](https://github.com/Andrrew94/booksy-pages/blob/master/preview/UserHomepage.png)
