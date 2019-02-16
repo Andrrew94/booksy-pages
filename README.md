@@ -1,7 +1,5 @@
 # booksy-pages
 The website is not mine, here are just some recreated pages of the website in the purpose of exercising SASS preprocessor and BEM metodology.
-
-</br>
 </br>
 In order to view this project, you have to clone or download the repository and open in your browser any desired page you wish to observe.
 </br>
